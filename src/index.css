@@ -23,16 +23,22 @@ html {
   font-size: 80px;
 }
 
+.grids-container > div:hover {
+  background-color: rgb(255, 255, 255);
+}
+
 .resetBtn {
   font-size: 24px;
   padding: 10px;
   border-radius: 5px;
   opacity: 50%;
+  margin: auto;
+  margin-top: 10px;
 }
 
 .resetBtnContainer {
   display: flex;
-  text-align: center;
+  align-items: center;
 }
 .resetBtn:hover {
   opacity: 100%;
